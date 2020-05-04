@@ -412,11 +412,11 @@ h1{
     font-size:27px;
     padding-right:20px;
     padding-left:20px;
+    transition: 0.5s;
 }
 
 .nav-top-item:hover{
     color:darkorange;
-    transition:0.5s linear;
 }
 
 .container-inner{
@@ -441,8 +441,16 @@ h1{
 }
 
 .banner-image{
-    display: inline;
+    display: inline-block;
     width:20%;
+    transition:0.5s;
+    margin-right:3%;
+    margin-left:3%;
+}
+
+.banner-image:hover{
+    transform:scale(1.2);
+    overflow:hidden;
 }
 
 .support-area{
